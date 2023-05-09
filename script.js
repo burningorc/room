@@ -31,24 +31,24 @@ function mobile() {
 
 mobRight.addEventListener('click', () =>{
     if(mobile() == 1){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/mobile-image-hero-2.jpg)";
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/mobile-image-hero-2.jpg)";
     }
     else if(mobile() == 2){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/mobile-image-hero-3.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/mobile-image-hero-3.jpg)";  
     }
     else if(mobile() == 3){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/mobile-image-hero-1.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/mobile-image-hero-1.jpg)";  
     }
 })
 mobLeft.addEventListener('click', () => {
     if(mobile() == 1){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/mobile-image-hero-3.jpg)";
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/mobile-image-hero-3.jpg)";
     }
     else if(mobile() == 2){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/mobile-image-hero-1.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/mobile-image-hero-1.jpg)";  
     }
     else if(mobile() == 3){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/mobile-image-hero-2.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/mobile-image-hero-2.jpg)";  
     }
 }) 
 function desktop() {
@@ -66,23 +66,23 @@ function desktop() {
 }
 desLeft.addEventListener('click', () => {
     if(desktop() == 1){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/desktop-image-hero-3.jpg)";
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/desktop-image-hero-3.jpg)";
     }
     else if(desktop() == 2){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/desktop-image-hero-1.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/desktop-image-hero-1.jpg)";  
     }
     else if(desktop() == 3){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/desktop-image-hero-2.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/desktop-image-hero-2.jpg)";  
     }
 }) 
 desRight.addEventListener('click', () => {
     if(desktop() == 1){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/desktop-image-hero-2.jpg)";
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/desktop-image-hero-2.jpg)";
     }
     else if(desktop() == 2){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/desktop-image-hero-3.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/desktop-image-hero-3.jpg)";  
     }
     else if(desktop() == 3){
-        document.querySelector(".first .left").style.backgroundImage = "url(/images/desktop-image-hero-1.jpg)";  
+        document.querySelector(".first .left").style.backgroundImage = "url(https://github.com/burningorc/room/tree/main/images/desktop-image-hero-1.jpg)";  
     }
 })
