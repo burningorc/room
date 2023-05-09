@@ -18,13 +18,13 @@ close.addEventListener('click', ()=>{
 function mobile() {
     const element = document.querySelector(".first .left");
     const background = getComputedStyle(element).backgroundImage;
-    if(background == 'url("https://github.com/burningorc/room/images/mobile-image-hero-1.jpg")'){
+    if(background == 'url("https://github.com/burningorc/room/tree/main/images/mobile-image-hero-1.jpg")'){
         return 1
     }
-    if(background == 'url("https://github.com/burningorc/room/images/mobile-image-hero-2.jpg")'){
+    if(background == 'url("https://github.com/burningorc/room/tree/main/images/mobile-image-hero-2.jpg")'){
         return 2
     }
-    if(background == 'url("https://github.com/burningorc/room/images/mobile-image-hero-3.jpg")'){
+    if(background == 'url("https://github.com/burningorc/room/tree/main/images/mobile-image-hero-3.jpg")'){
         return 3
     }
 }
@@ -54,13 +54,13 @@ mobLeft.addEventListener('click', () => {
 function desktop() {
     const element = document.querySelector(".first .left");
     const background = getComputedStyle(element).backgroundImage; 
-    if(background == 'url("https://github.com/burningorc/room/images/desktop-image-hero-1.jpg")'){
+    if(background == 'url("https://github.com/burningorc/room/tree/main/images/desktop-image-hero-1.jpg")'){
         return 1
     }
-    else if(background == 'url("https://github.com/burningorc/room/images/desktop-image-hero-2.jpg")'){
+    else if(background == 'url("https://github.com/burningorc/room/tree/main/images/desktop-image-hero-2.jpg")'){
         return 2
     }
-    else if(background == 'url("https://github.com/burningorc/room/images/desktop-image-hero-3.jpg")'){
+    else if(background == 'url("https://github.com/burningorc/room/tree/main/images/desktop-image-hero-3.jpg")'){
         return 3
     }
 }
