@@ -42,7 +42,7 @@ mobRight.addEventListener('click', () =>{
 })
 mobLeft.addEventListener('click', () => {
     if(mobile() == 1){
-        document.querySelector(".first .left").style.backgroundImage = "https://burningorc.github.io/room/images/mobile-image-hero-3.jpg)";
+        document.querySelector(".first .left").style.backgroundImage = "url(https://burningorc.github.io/room/images/mobile-image-hero-3.jpg)";
     }
     else if(mobile() == 2){
         document.querySelector(".first .left").style.backgroundImage = "url(https://burningorc.github.io/room/images/mobile-image-hero-1.jpg)";  
